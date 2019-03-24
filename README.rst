@@ -39,4 +39,4 @@ asbamboo/api-standard 是 `asbamboo/api`_ 的标准用例。编写这个用例�
 用例接口
 ----------------------------
 
-:timestamp: (ApiStore\v1_0\Timestamp) 演示基本的了请求参数映射类、响应参数映射类、接口逻辑处理类的编写.
+:timestamp: (ApiStore\v1_0\Timestamp) 演示基本的请求参数映射类、响应参数映射类、接口逻辑处理类的编写.
