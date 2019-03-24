@@ -1,0 +1,21 @@
+{
+	"name" : "asbamboo/api-strandard",
+	"description" : "asbamboo/api-strandard 是 asbamboo/api 的标准用例",
+	"type" : "project",
+	"autoload" : {
+        "psr-4" : {
+            "" : "",
+            "ApiStore\\" : "ApiStore"
+        }
+    },
+	"require" : {
+		"asbamboo/api" : "^1.0"
+	},
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "李春寅",
+			"email" : "licy2013@aliyun.com"
+		}
+	],
+	"minimum-stability" : "dev"
+}

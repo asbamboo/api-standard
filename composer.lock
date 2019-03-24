@@ -1,0 +1,366 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d48e09dbf7978293cebfb93eb5b1da15",
+    "packages": [
+        {
+            "name": "asbamboo/api",
+            "version": "1.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/api.git",
+                "reference": "d52dcd53db78824cc26b70d7c9410b48ac25a82f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/api/zipball/d52dcd53db78824cc26b70d7c9410b48ac25a82f",
+                "reference": "d52dcd53db78824cc26b70d7c9410b48ac25a82f",
+                "shasum": ""
+            },
+            "require": {
+                "asbamboo/autoload": "^1.0",
+                "asbamboo/event": "^1.0",
+                "asbamboo/http": "^1.0",
+                "asbamboo/router": "^1.0",
+                "php": "^7.2",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "asbamboo/di": "^1.0",
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "description": "asbamboo/api 是用来简化Web API接口开发一个辅助模块",
+            "support": {
+                "source": "https://github.com/asbamboo/api/tree/1.0.0",
+                "issues": "https://github.com/asbamboo/api/issues"
+            },
+            "time": "2019-03-24T06:15:03+00:00"
+        },
+        {
+            "name": "asbamboo/autoload",
+            "version": "1.0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/autoload.git",
+                "reference": "5552e4195e467a72d278ed878f3c32b97080187a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/autoload/zipball/5552e4195e467a72d278ed878f3c32b97080187a",
+                "reference": "5552e4195e467a72d278ed878f3c32b97080187a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "asbamboo\\autoload\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/asbamboo/autoload/tree/1.0.1",
+                "issues": "https://github.com/asbamboo/autoload/issues"
+            },
+            "time": "2018-10-26T09:20:13+00:00"
+        },
+        {
+            "name": "asbamboo/event",
+            "version": "1.1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/event.git",
+                "reference": "1fb8391b435e95d93ab9c86a3539add3a1341829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/event/zipball/1fb8391b435e95d93ab9c86a3539add3a1341829",
+                "reference": "1fb8391b435e95d93ab9c86a3539add3a1341829",
+                "shasum": ""
+            },
+            "require": {
+                "asbamboo/autoload": "^1.0",
+                "asbamboo/helper": "^1.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "asbamboo\\event\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/asbamboo/event/tree/1.1.0",
+                "issues": "https://github.com/asbamboo/event/issues"
+            },
+            "time": "2018-12-18T06:05:55+00:00"
+        },
+        {
+            "name": "asbamboo/helper",
+            "version": "1.1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/helper.git",
+                "reference": "2ffe400ca3f3eb489afdf20fe00d2aff50a9f6d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/helper/zipball/2ffe400ca3f3eb489afdf20fe00d2aff50a9f6d6",
+                "reference": "2ffe400ca3f3eb489afdf20fe00d2aff50a9f6d6",
+                "shasum": ""
+            },
+            "require": {
+                "asbamboo/autoload": "^1.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "asbamboo\\helper\\": ""
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/asbamboo/helper/tree/1.1.0",
+                "issues": "https://github.com/asbamboo/helper/issues"
+            },
+            "time": "2018-12-04T06:20:21+00:00"
+        },
+        {
+            "name": "asbamboo/http",
+            "version": "1.1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/http.git",
+                "reference": "3030e8f8f78454f6eeeb7fbcae024ce702660a4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/http/zipball/3030e8f8f78454f6eeeb7fbcae024ce702660a4a",
+                "reference": "3030e8f8f78454f6eeeb7fbcae024ce702660a4a",
+                "shasum": ""
+            },
+            "require": {
+                "asbamboo/autoload": "^1.0",
+                "asbamboo/event": "^1.0",
+                "php": "^7.2",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/asbamboo/http/tree/1.1.0",
+                "issues": "https://github.com/asbamboo/http/issues"
+            },
+            "time": "2019-02-26T02:53:20+00:00"
+        },
+        {
+            "name": "asbamboo/router",
+            "version": "1.0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asbamboo/router.git",
+                "reference": "d613125e411637faa942e5e0ca3f3371316c74f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asbamboo/router/zipball/d613125e411637faa942e5e0ca3f3371316c74f4",
+                "reference": "d613125e411637faa942e5e0ca3f3371316c74f4",
+                "shasum": ""
+            },
+            "require": {
+                "asbamboo/autoload": "^1.0",
+                "asbamboo/http": "^1.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.2"
+            },
+            "type": "library",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "李春寅",
+                    "email": "licy2013@aliyun.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/asbamboo/router/tree/1.0.1",
+                "issues": "https://github.com/asbamboo/router/issues"
+            },
+            "time": "2019-03-14T03:26:00+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "014d250daebff39eba15ba990eeb2a140798e77c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/014d250daebff39eba15ba990eeb2a140798e77c",
+                "reference": "014d250daebff39eba15ba990eeb2a140798e77c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2018-12-29T15:36:03+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
