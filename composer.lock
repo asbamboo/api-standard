@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/api.git",
-                "reference": "d52dcd53db78824cc26b70d7c9410b48ac25a82f"
+                "reference": "e13792916bb8ae66cf64135795f8d4f8ed4b37aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/api/zipball/d52dcd53db78824cc26b70d7c9410b48ac25a82f",
-                "reference": "d52dcd53db78824cc26b70d7c9410b48ac25a82f",
+                "url": "https://api.github.com/repos/asbamboo/api/zipball/e13792916bb8ae66cf64135795f8d4f8ed4b37aa",
+                "reference": "e13792916bb8ae66cf64135795f8d4f8ed4b37aa",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "source": "https://github.com/asbamboo/api/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/api/issues"
             },
-            "time": "2019-03-24T06:15:03+00:00"
+            "time": "2019-03-25T01:48:25+00:00"
         },
         {
             "name": "asbamboo/autoload",
