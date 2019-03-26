@@ -30,11 +30,8 @@ class Container implements ContainerInterface
      */
     public function initServices()
     {
-        $this->services = include "services.php";
-        foreach($this->services AS $id => $service){
-            if(method_exists($service, 'setContainer')){
-                $service->setContainer($this);
-            }
+        foreach(include "services.php" AS $id => $service){
+            $this->set($id, $service);
         }
     }
 
@@ -45,6 +42,12 @@ class Container implements ContainerInterface
      */
     public function set($id, $service)
     {
+        if(!is_object($service)){
+            $service    = new $service();
+        }
+        if(method_exists($service, 'setContainer')){
+            $service->setContainer($this);
+        }
         $this->services[$id]    = $service;
     }
 
